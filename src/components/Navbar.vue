@@ -8,18 +8,10 @@
                 <ul class="uk-subnav">
                     <!-- Home -->
                     <li>
-                        <a href="#" class="uk-flex uk-flex-column uk-flex-middle">
+                        <router-link to="/" class="uk-flex uk-flex-column uk-flex-middle">
                             <i class="fa-solid fa-house"></i>
                             Home
-                        </a>
-                    </li>
-
-                    <!-- Search -->
-                    <li>
-                        <a href="#" class="uk-flex uk-flex-column uk-flex-middle">
-                            <i class="fa-solid fa-search"></i>
-                            Search
-                        </a>
+                        </router-link>
                     </li>
                 </ul>
             </div>
@@ -32,9 +24,21 @@
                         <a href="#"> Categories <span uk-drop-parent-icon></span></a>
                         <div class="uk-dropdown">
                             <ul class="uk-nav uk-dropdown-nav">
-                                <li class="uk-active"><a href="#">Active</a></li>
-                                <li><a href="#">Item</a></li>
-                                <li><a href="#">Item</a></li>
+                                <li class="uk-active">
+                                    <a href="#">Offers </a>
+                                </li>
+                                <li>
+                                    <a href="#">Shoes </a>
+                                </li>
+                                <li>
+                                    <a href="#">Pants </a>
+                                </li>
+                                <li>
+                                    <a href="#">Shirts </a>
+                                </li>
+                                <li>
+                                    <a href="#">Sweatshirts</a>
+                                </li>
                             </ul>
                         </div>
                     </li>
@@ -44,7 +48,7 @@
                         <a href="#"> Design <span uk-drop-parent-icon></span></a>
                         <div class="uk-dropdown">
                             <ul class="uk-nav uk-dropdown-nav">
-                                <li class="uk-active"><a href="#">Deportivo</a></li>
+                                <li class="uk-active"><a href="#">Sports</a></li>
                                 <li><a href="#">Formal</a></li>
                                 <li><a href="#">Casual</a></li>
                             </ul>
@@ -54,14 +58,22 @@
             </div>
 
             <!-- Right side Navbar -->
+
             <div class="uk-flex uk-flex-middle">
                 <ul class="uk-subnav">
+                <!-- Search -->
+                    <li>
+                        <a href="#" class="uk-flex uk-flex-column uk-flex-middle">
+                            <i class="fa-solid fa-search"></i>
+                            Search
+                        </a>
+                    </li>
                     <!-- Login -->
                     <li>
-                        <a href="#" class="uk-flex uk-flex-column">
+                        <router-link to="/login" class="uk-flex uk-flex-column">
                             <i class="fa-solid fa-user"></i>
                             Login
-                        </a>
+                        </router-link>
                     </li>
                 </ul>
             </div>
