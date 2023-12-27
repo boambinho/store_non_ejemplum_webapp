@@ -1,9 +1,8 @@
-import './assets/main.css'
-
-import { createApp } from 'vue'
-import App from './App.vue'
-import router from './router'
-import redaxios from 'redaxios'
+import { createApp } from 'vue';
+import App from './App.vue';
+import router from './router';
+import redaxios from 'redaxios';
+import './assets/fonts.css';
 
 const app = createApp(App)
 

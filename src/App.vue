@@ -2,7 +2,7 @@
 import { RouterLink, RouterView } from 'vue-router'
 
 import Navbar from './components/Navbar.vue';
-import Footer from './components/Footer.vue';
+import FooterSection from './components/FooterSection.vue';
 
 
 
@@ -13,22 +13,27 @@ import Footer from './components/Footer.vue';
   <header>
     <Navbar />
   </header>
+  <main class="app-container">
+    <body class="app-container">
 
-  <body>
+      <RouterView></RouterView>
 
-    <RouterView></RouterView>
-
-  </body>
-
+    </body>
+  </main>
 <footer>
 
-    <Footer />
+  <FooterSection/>
+
 </footer>
   <!-- <RouterView /> -->
 </template>
 
 <style>
 
+.app-container{
+    margin-left: 10px;
+    margin-right: 10px;
+}
 
 </style>
 
