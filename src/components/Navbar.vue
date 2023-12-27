@@ -54,20 +54,22 @@
                             </ul>
                         </div>
                     </li>
+                    <!-- Search -->
+                    <li class="uk-flex uk-flex-middle">
+                        <a href="#" class="uk-flex uk-flex-column uk-flex-middle">
+                            <i class="fa-solid fa-search"></i>
+                        </a>
+                        <input type="text" class="uk-input uk-margin-small-left">
+                    </li>
                 </ul>
+
             </div>
 
             <!-- Right side Navbar -->
 
             <div class="uk-flex uk-flex-middle">
                 <ul class="uk-subnav">
-                <!-- Search -->
-                    <li>
-                        <a href="#" class="uk-flex uk-flex-column uk-flex-middle">
-                            <i class="fa-solid fa-search"></i>
-                            Search
-                        </a>
-                    </li>
+
                     <!-- Login -->
                     <li>
                         <router-link to="/login" class="uk-flex uk-flex-column">
