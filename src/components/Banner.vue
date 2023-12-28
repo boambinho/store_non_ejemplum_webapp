@@ -7,7 +7,7 @@
 
     <div class="uk-position-relative uk-visible-toggle uk-light container-banner" tabindex="-1" uk-slider="center: true">
 
-        <ul class ="uk-slider-items uk-width-1-5">
+        <ul class ="uk-slider-items uk-width-1-5 ">
             <li>
                 <img src="../assets/img/pantalon1.jpeg" alt="img1" width="400" height="600">
                 <div>
@@ -58,6 +58,11 @@
 
     .uk-slidenav{
         fill: black;
+    }
+
+    .container-banner{
+
+        background-color: black;
     }
 
 </style>

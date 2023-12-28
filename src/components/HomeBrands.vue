@@ -16,7 +16,7 @@
     <div class="uk-light uk-margin uk-width-1-1">
         <div class="uk-grid uk-grid-medium uk-flex-center">
             <div v-for="brand in brands" :key="brand.id" class="uk-width-1-6">
-                <div class="uk-card uk-card-default uk-card-body" style="height: 150px">
+                <div class="uk-card uk-card-default uk-card-body uk-margin-bottom" style="height: 150px">
                     <div>
                         <img :src="brand.image" :alt="brand.alt" class="uk-width-1-1" style="object-fit: cover; height: 100%;">
                     </div>

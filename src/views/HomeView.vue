@@ -2,6 +2,7 @@
 
   import Banner from '../components/Banner.vue';
   import HomeBrands from '@/components/HomeBrands.vue';
+  import HomeCategories from '@/components/HomeCategories.vue';
 
 </script>
 
@@ -19,7 +20,6 @@
 
         <div>
           <h1>Busca según tu marca favorita</h1>
-
             <!-- Famous brand -->
             <!-- < HomeBrand />  -->
             <HomeBrands />
@@ -27,13 +27,15 @@
         </div>
 
         <div>
+          <!-- Popular Categories. -->
+          <HomeCategories/>
 
-            <!-- Home Historial  -->
 
         </div>
 
         <div>
-          <!-- SubBarHome -->
+
+            <!-- Home Historial  -->
         </div>
         <div>
           <!-- Categories -->
