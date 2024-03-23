@@ -4,7 +4,6 @@
     {id: 1, image: "/src/assets/img/brands/adidas.png", alt: "Adidas" },
     { id: 2, image: "/src/assets/img/brands/gucci.png", alt:"Gucci"},
     { id: 3, image: "/src/assets/img/brands/lacoste.png", alt:"Lacoste"},
-    { id: 4, image: "/src/assets/img/brands/nike.png", alt:"Nike"},
     { id: 5, image: "/src/assets/img/brands/northface.png", alt:"NorthFace"},
     { id: 6, image: "/src/assets/img/brands/Zara.png", alt:"Zara"}
  ]

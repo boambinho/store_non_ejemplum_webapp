@@ -28,6 +28,7 @@
 
         <div>
           <!-- Popular Categories. -->
+          <h1> Popular Categories</h1>
           <HomeCategories/>
 
 

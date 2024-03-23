@@ -33,7 +33,7 @@ import FooterSection from './components/FooterSection.vue';
 .app-container{
     margin-left: 10px;
     margin-right: 10px;
-    background-color: black;
+    background-color: rgb(233, 227, 227)
 }
 
 </style>
