@@ -1,7 +1,7 @@
 <script setup>
 
-    import { ref } from 'vue';
-import { RouterLink } from 'vue-router';
+  import { ref } from 'vue';
+  import { RouterLink } from 'vue-router';
 
     const categories = ref([
         {id: 1, name: 'Ropa deportiva' },
@@ -35,7 +35,6 @@ import { RouterLink } from 'vue-router';
               <div class="uk-width-1-3@s uk-width-1-2@m uk-flex uk-flex-wrap uk-flex-center">
 
                 <a class="uk-card uk-card-default uk-flex uk-flex-wrap uk-padding-small" v-for="category in categories" :key="category.id">
-                  <!-- Add content for category 1 -->
                   {{  category.name }}
                 </a>
 
@@ -47,9 +46,6 @@ import { RouterLink } from 'vue-router';
 </template>
 
 <style>
-  .uk-card {
-    /* Add any additional styling you need */
-    /* For example, you may want to set a max-width to prevent the cards from becoming too wide */
-    max-width: 100%; /* Adjust as needed */
-  }
+
+
 </style>
