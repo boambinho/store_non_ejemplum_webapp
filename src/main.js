@@ -3,6 +3,8 @@ import App from './App.vue';
 import router from './router';
 import redaxios from 'redaxios';
 import './assets/fonts.css';
+import 'uikit/dist/css/uikit.min.css';
+import 'uikit/dist/js/uikit.min.js';
 
 const app = createApp(App)
 

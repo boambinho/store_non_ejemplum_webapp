@@ -28,13 +28,22 @@ import FooterSection from './components/FooterSection.vue';
   <!-- <RouterView /> -->
 </template>
 
-<style>
+<style lang ="scss">
 
 .app-container{
     margin-left: 10px;
     margin-right: 10px;
     background-color: rgb(233, 227, 227)
-}
+};
+
+.uk-slidenav-previous {
+  color: black !important;
+};
+
+.uk-slidenav-next {
+  color: black !important;
+};
+
 
 </style>
 

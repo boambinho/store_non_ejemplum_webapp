@@ -13,31 +13,24 @@
 
 <template>
 
-    <div class="uk-position-relative uk-visible-toggle uk-light container-banner" tabindex="-1" uk-slider="center: true">
+    <div class="uk-position-relative uk-visible-toggle uk-light uk-slider-container" tabindex="-1" uk-slider="center: true">
 
-        <ul class ="uk-slider-items uk-width-1-5 ">
+        <ul class ="uk-slider-items uk-width-1-5">
             <li v-for="(image, index) in images" :key="index">
+                <div class="slider-item">
                 <img :src="image.src" :alt="'img' + index" width="400" height="600">
+                </div>
                 <div>
                 </div>
             </li>
         </ul>
 
-        <a class=" uk-position-center-left uk-position-small" href uk-slidenav-previous uk-slider-item="previous"></a>
-        <a class=" uk-position-center-right uk-position-small" href uk-slidenav-next uk-slider-item="next"></a>
+        <a class="uk-position-center-left uk-position-small" href ="#" uk-slidenav-previous uk-slider-item="previous"></a>
+        <a class="uk-position-center-right uk-position-small" href ="#" uk-slidenav-next uk-slider-item="next"></a>
     </div>
 
 </template>
 
 <style scoped>
-
-    .uk-slidenav{
-        fill: black;
-    }
-
-    .container-banner{
-
-        background-color: black;
-    }
 
 </style>
