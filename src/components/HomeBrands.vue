@@ -1,5 +1,6 @@
-import { RouterLink } from 'vue-router';
 <script setup>
+
+import { RouterLink } from 'vue-router';
 
  const brands = [
     {id: 1, image: "/src/assets/img/brands/adidas.png", alt: "Adidas" },
@@ -16,7 +17,7 @@ import { RouterLink } from 'vue-router';
     <div class="uk-light uk-margin uk-width-1-1">
         <div class="uk-grid uk-grid-medium uk-flex-center">
             <div v-for="brand in brands" :key="brand.id" class="uk-width-1-6">
-                <div class="uk-card uk-card-default uk-card-body uk-margin-bottom" style="height: 150px">
+                <div class="uk-card uk-card-default uk-card-body uk-margin-bottom uk-margin-top" style="height: 150px">
                     <!-- <router-link :to>
                         </ router-link> -->
                     <div class="uk-transition-toggle" tableindex="0">
