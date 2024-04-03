@@ -18,9 +18,7 @@
         <ul class ="uk-slider-items uk-width-1-5">
             <li v-for="(image, index) in images" :key="index">
                 <div class="slider-item">
-                <img :src="image.src" :alt="'img' + index" width="400" height="600">
-                </div>
-                <div>
+                    <img :src="image.src" :alt="'img' + index" width="400" height="600">
                 </div>
             </li>
         </ul>

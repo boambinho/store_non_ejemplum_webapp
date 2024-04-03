@@ -3,6 +3,7 @@
   import Banner from '../components/Banner.vue';
   import HomeBrands from '@/components/HomeBrands.vue';
   import HomeCategories from '@/components/HomeCategories.vue';
+  import HomeOffers from '@/components/HomeOffers.vue';
 
 </script>
 
@@ -23,6 +24,11 @@
             <!-- Famous brand -->
             <!-- < HomeBrand />  -->
             <HomeBrands />
+
+        </div>
+        <div>
+          <h1> Destacados </h1>
+          <HomeOffers />
 
         </div>
 
