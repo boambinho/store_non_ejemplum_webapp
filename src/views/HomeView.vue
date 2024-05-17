@@ -8,8 +8,7 @@
 </script>
 
 <template>
-  <main>
-    <body>
+
       <div>
 
         <div class="backgroundcolour uk-margin-large-bottom">
@@ -53,8 +52,7 @@
 
         </div>
       </div>
-    </body>
-  </main>
+
 </template>
 
 <style>

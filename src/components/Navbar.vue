@@ -78,7 +78,7 @@
                         </router-link>
                     </li>
                     <li>
-                        <router-link to="#" class="uk-flex uk-flex-column">
+                        <router-link to="/cart" class="uk-flex uk-flex-column">
                             <i class="fa-solid fa-cart-shopping"></i>
                         </router-link>
                     </li>
