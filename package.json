@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "countries-list": "^3.1.0",
     "redaxios": "^0.5.1",
     "uikit": "^3.19.2",
     "vue": "^3.3.11",
