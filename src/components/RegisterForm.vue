@@ -1,12 +1,12 @@
 <script setup>
 import { ref } from 'vue';
-import countries from 'countries-list';
+// import countries from 'countries-list';
 
 // Country phone number
 
-const countryOptions = Object.defineProperties(countries).map(([code, country]) => {
-    return '<option value="${code}">${country.name} (+${country.phone})</option>';
-})
+// const countryOptions = Object.defineProperties(countries).map(([code, country]) => {
+//     return '<option value="${code}">${country.name} (+${country.phone})</option>';
+// })
 
 const passwordVisible = ref(false);
 const confirmPasswordVisible = ref(false);
